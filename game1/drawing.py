@@ -1,6 +1,6 @@
 import math
 
-from game1.map import world_map
+from map import world_map
 from map import mini_map
 from settings import *
 import pygame
