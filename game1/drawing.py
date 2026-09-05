@@ -34,3 +34,4 @@ class Drawing:
         for x, y in mini_map:
             pygame.draw.rect(self.sc_map, DARKGROWN, (x, y, MAP_TILE, MAP_TILE))
         self.sc.blit(self.sc_map, MAP_POS)
+
