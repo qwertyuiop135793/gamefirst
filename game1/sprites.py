@@ -6,7 +6,7 @@ from settings import *
 class Sprites:
     def __init__(self):
         self. sprite_types = {
-            'barrel':pygame.image.load('sprites/images/BAR1E0.png').convert_alpha()
+            'barrel':pygame.image.load('sprites/barrel/0.png').convert_alpha()
         }
         self.list_of_objects = [
             SpriteObject(self.sprite_types['barrel'], True, (7.1, 2.1), 1.8, 0.4)
